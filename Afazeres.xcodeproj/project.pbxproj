@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		936842592B29550200BAC40C /* AfazeresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936842582B29550200BAC40C /* AfazeresApp.swift */; };
-		9368425B2B29550200BAC40C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9368425A2B29550200BAC40C /* ContentView.swift */; };
+		9368425B2B29550200BAC40C /* AfazeresScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9368425A2B29550200BAC40C /* AfazeresScreen.swift */; };
 		9368425D2B29550300BAC40C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9368425C2B29550300BAC40C /* Assets.xcassets */; };
 		936842602B29550300BAC40C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9368425F2B29550300BAC40C /* Preview Assets.xcassets */; };
 		9368426A2B29550300BAC40C /* AfazeresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936842692B29550300BAC40C /* AfazeresTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		936842552B29550200BAC40C /* Afazeres.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Afazeres.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		936842582B29550200BAC40C /* AfazeresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfazeresApp.swift; sourceTree = "<group>"; };
-		9368425A2B29550200BAC40C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9368425A2B29550200BAC40C /* AfazeresScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfazeresScreen.swift; sourceTree = "<group>"; };
 		9368425C2B29550300BAC40C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9368425F2B29550300BAC40C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		936842652B29550300BAC40C /* AfazeresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfazeresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				936842582B29550200BAC40C /* AfazeresApp.swift */,
-				9368425A2B29550200BAC40C /* ContentView.swift */,
+				9368425A2B29550200BAC40C /* AfazeresScreen.swift */,
 				9368425C2B29550300BAC40C /* Assets.xcassets */,
 				9368425E2B29550300BAC40C /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9368425B2B29550200BAC40C /* ContentView.swift in Sources */,
+				9368425B2B29550200BAC40C /* AfazeresScreen.swift in Sources */,
 				936842592B29550200BAC40C /* AfazeresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import SwiftUI
 struct AfazeresApp: App {
     var body: some Scene {
         WindowGroup {
-            AfazeresScreen()
+            AfazeresScreen().background(.smoke)
         }
     }
 }

@@ -28,7 +28,7 @@ struct CompletedListView : View {
                             Text(afazer.description).frame(maxWidth:.infinity,alignment:.leading)
                         }.padding(2)
                         
-                    }.listRowInsets(.init(top: 8, leading: 0, bottom: 8, trailing: 0))
+                    }.listRowInsets(.init(top: 8, leading: 0, bottom: 8, trailing: 0)).listRowBackground(Color.smoke)
                     
                 }.contentMargins(0).listRowSeparator(.hidden)
             

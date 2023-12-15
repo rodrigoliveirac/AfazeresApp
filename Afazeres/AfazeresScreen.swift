@@ -19,8 +19,18 @@ struct AfazeresScreen: View {
                 Spacer()
                 IncompleteListView()
                 CompletedListView()
-            }
-            .padding().frame(maxHeight: .infinity).padding(8)
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Image(systemName: "plus")
+                
+                        .font(.title.weight(.light))
+                        .padding()
+                        .background(Color.dodgerBlue)
+                        .foregroundColor(.white)
+                        .clipShape(Circle()).frame(maxWidth:.infinity,alignment: .bottomTrailing)
+
+                }).padding(/*@START_MENU_TOKEN@*/EdgeInsets()/*@END_MENU_TOKEN@*/)
+            }.background(.smoke)
+            .padding().frame(maxHeight: .infinity).padding(8).background(.smoke)
     
     }
 }

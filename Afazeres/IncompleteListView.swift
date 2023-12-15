@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-var afazeres = [Afazer(title: "Comprar skate", description: "na bronkski"), Afazer(title: "Jantar pizza", description: "na TwoBrothers"),Afazer(title: "Estudar", description: "SwiftUI")]
+var afazeres = [Afazer(title: "Comprar mac", description: "na magnusiphone"), Afazer(title: "Jantar pizza", description: "na TwoBrothers"),Afazer(title: "Estudar", description: "SwiftUI")]
 struct IncompleteListView : View {
     
     
@@ -26,13 +26,10 @@ struct IncompleteListView : View {
                             Text(afazer.description).frame(maxWidth:.infinity,alignment:.leading)
                         }.padding(2)
                         
-                    }.listRowInsets(.init(top: 8, leading: 0, bottom: 8, trailing: 0))
+                    }.listRowBackground(Color.smoke).listRowInsets(.init(top: 8, leading: 0, bottom: 8, trailing: 0))
                     
                 }.contentMargins(0).listRowSeparator(.hidden)
-            
             }.contentMargins(0).scrollContentBackground(.hidden)
-        
-        
         }
     }
 }

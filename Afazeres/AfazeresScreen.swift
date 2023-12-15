@@ -9,17 +9,19 @@ import SwiftUI
 
 struct AfazeresScreen: View {
     var body: some View {
-        
+        @State var isChecked:Bool = false
         @State var currentDate = "Dez 14, 2023"
         @State var incomplete = "5"
         @State var completed = "5"
         
-        ScrollView {
             VStack(spacing:4) {
                 HeaderMainScreen(currentDate:$currentDate, incomplete:$incomplete,completed:$completed)
+                Spacer()
+                IncompleteListView()
+                CompletedListView()
             }
             .padding().frame(maxHeight: .infinity).padding(8)
-        }
+    
     }
 }
 
@@ -44,3 +46,29 @@ struct HeaderMainScreen : View {
         Divider()
     }
 }
+
+struct Afazer: Identifiable{
+    let title: String
+    let description :  String
+    let id = UUID()
+}
+
+
+
+                                 struct CheckToggleStyle: ToggleStyle {
+                                     func makeBody(configuration: Configuration) -> some View {
+                                         Button {
+                                             configuration.isOn.toggle()
+                                         } label: {
+                                             Label {
+                                                 configuration.label
+                                             } icon: {
+                                                 Image(configuration.isOn ? "MyCheckBoxFilled" : "MyCheckBox")
+                                                     .foregroundStyle(configuration.isOn ? Color.accentColor : .secondary)
+                                                     .accessibility(label: Text(configuration.isOn ? "Checked" : "Unchecked"))
+                                                     .imageScale(.medium)
+                                             }.contentMargins(0)
+                                         }
+                                       
+                                     }
+                                 }

@@ -14,6 +14,8 @@
 		9368426A2B29550300BAC40C /* AfazeresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936842692B29550300BAC40C /* AfazeresTests.swift */; };
 		936842742B29550300BAC40C /* AfazeresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936842732B29550300BAC40C /* AfazeresUITests.swift */; };
 		936842762B29550300BAC40C /* AfazeresUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936842752B29550300BAC40C /* AfazeresUITestsLaunchTests.swift */; };
+		93B95AF02B2C0317001E41B5 /* IncompleteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B95AEF2B2C0317001E41B5 /* IncompleteListView.swift */; };
+		93B95AF22B2C0380001E41B5 /* CompletedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B95AF12B2C0380001E41B5 /* CompletedListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		9368426F2B29550300BAC40C /* AfazeresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfazeresUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		936842732B29550300BAC40C /* AfazeresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfazeresUITests.swift; sourceTree = "<group>"; };
 		936842752B29550300BAC40C /* AfazeresUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfazeresUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93B95AEF2B2C0317001E41B5 /* IncompleteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncompleteListView.swift; sourceTree = "<group>"; };
+		93B95AF12B2C0380001E41B5 /* CompletedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				9368425A2B29550200BAC40C /* AfazeresScreen.swift */,
 				9368425C2B29550300BAC40C /* Assets.xcassets */,
 				9368425E2B29550300BAC40C /* Preview Content */,
+				93B95AEF2B2C0317001E41B5 /* IncompleteListView.swift */,
+				93B95AF12B2C0380001E41B5 /* CompletedListView.swift */,
 			);
 			path = Afazeres;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9368425B2B29550200BAC40C /* AfazeresScreen.swift in Sources */,
+				93B95AF02B2C0317001E41B5 /* IncompleteListView.swift in Sources */,
+				93B95AF22B2C0380001E41B5 /* CompletedListView.swift in Sources */,
 				936842592B29550200BAC40C /* AfazeresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
